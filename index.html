@@ -11,7 +11,7 @@
       type="image/x-icon"
     />
   </head>
-  <body class="font-sora">
+  <body class="font-sora relative">
     <section class="bg-linear-to-t from-[#EFEBE3] to-[#fff]">
       <!-- header section start -->
       <header class="md:border-none border-b-2 border-[#179800]">
@@ -376,30 +376,142 @@
     <!-- Popular Products section end -->
 
     <!-- Arrival & Offers section start -->
-    <section>
-      <h2>Arrival & Offers</h2>
-      <div>
-        <div>
-          <div>
-            <img src="./src/assets/dawat-logo.png" alt="product logo" />
-            <button>Cook Exotic Dishes</button>
-            <h3>UP to 20% OFF</h3>
+    <section class="pt-36 pb-80">
+      <div class="w-11/12 mx-auto">
+        <h2 class="mb-12 text-4xl text-[#179800] font-semibold">
+          Arrival & Offers
+        </h2>
+        <div class="grid md:grid-cols-5 grid-cols-1 gap-6">
+          <div
+            class="p-7 pr-2.5 flex justify-start items-center bg-[#115414] rounded-3xl md:col-span-3"
+          >
+            <div class="flex flex-col gap-8 flex-2/3">
+              <img
+                class="w-64 h-20"
+                src="./src/assets/dawat-logo.png"
+                alt="product logo"
+              />
+              <button
+                class="bg-[#63B76D] text-white rounded-xl py-3.5 px-8 md:text-2xl text-xs font-normal"
+              >
+                Cook Exotic Dishes
+              </button>
+              <h3 class="md:text-4xl text-lg font-normal text-white">
+                UP to <span class="font-bold">20% OFF</span>
+              </h3>
+            </div>
+            <div>
+              <img
+                class="md:w-64 w-36 md:h-72 h-44"
+                src="./src/assets/product-dawat.png"
+                alt="dawat"
+              />
+            </div>
           </div>
-          <div>
-            <img src="./src/assets/product-dawat.png" alt="dawat" />
+          <div
+            class="md:col-span-2 p-7 pr-2.5 flex justify-start items-center bg-[#102861] rounded-3xl"
+          >
+            <div class="flex flex-col gap-8 flex-2/3">
+              <img
+                class="w-24 h-32"
+                src="./src/assets/indiagate-logo.png"
+                alt="logo"
+              />
+              <button
+                class="py-3.5 px-8 bg-[#2A4D97] rounded-lg text-white md:text-2xl text-xs font-normal"
+              >
+                World’s No.1 Rice
+              </button>
+              <h3 class="md:text-4xl text-lg font-normal text-white">
+                UP to <span class="font-bold">40% OFF</span>
+              </h3>
+            </div>
+            <div>
+              <img src="./src/assets/product-indiagate.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div>
-          <div>
-            <img src="./src/assets/indiagate-logo.png" alt="logo" />
-            <button>World’s No.1 Rice</button>
-            <h3>UP to 40% OFF</h3>
-          </div>
-          <div></div>
         </div>
       </div>
     </section>
     <!-- Arrival & Offers section end -->
+
+    <!-- Get Grocery News! section start -->
+    <section
+      class="w-11/12 mx-auto bg-[#EFEBE3] py-14 md:px-24 px-5 rounded-4xl flex flex-col md:flex-row justify-between items-center absolute md:bottom-80 bottom-[450px] inset-x-0 z-50"
+    >
+      <div>
+        <img src="./src/assets/fruit-basket.png" alt="basket" />
+      </div>
+      <div class="flex flex-col gap-8 md:items-start items-center">
+        <h2
+          class="md:text-4xl text-2xl md:text-black text-[#179800] font-semibold"
+        >
+          Get Grocery News!
+        </h2>
+        <p class="text-xl md:text-left text-center">
+          Exclusive training tips, ticks, product deals and more.
+        </p>
+        <input
+          class="md:w-[472px] w-full bg-white rounded-lg p-2.5"
+          type="text"
+          placeholder="Enter email...."
+        />
+        <button
+          class="bg-[#179800] py-2.5 px-8 rounded-lg text-white text-xl font-normal cursor-pointer"
+        >
+          Subscribe
+        </button>
+      </div>
+    </section>
+    <!-- Get Grocery News! section end -->
+
+    <!-- footer start -->
+    <footer class="bg-[#179800] text-white pb-20 md:pt-80 pt-96">
+      <div class="w-11/12 mx-auto grid md:grid-cols-3 grid-cols-1 justify-end">
+        <div class="">
+          <img
+            class="w-40 h-16"
+            src="./src/assets/logo-white.png"
+            alt="logo-white"
+          />
+          <p class="text-xl font-normal opacity-75">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends
+          </p>
+        </div>
+        <div class="mt-5">
+          <ul
+            class="flex flex-col gap-3.5 justify-center md:items-center items-start text-xl"
+          >
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col md:justify-end md:items-end justify-start items-start"
+        >
+          <div class="mt-5">
+            <p class="text-lg mb-3.5">Follow Us</p>
+            <div class="text-3xl flex justify-start items-center gap-7">
+              <a href="https://www.facebook.com/khabbab51" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/khabbabdev/" arget="_blank">
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/khabbabdev/" arget="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://www.youtube.com/@virtual_gibon" arget="_blank">
+                <i class="fa-brands fa-square-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
 
     <!-- fontawesome -->
     <script
